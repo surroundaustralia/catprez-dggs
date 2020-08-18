@@ -1,0 +1,24 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/byron-client>
+  a dcat:Resource ;
+  dcterms:identifier "byron-client" ;
+  dcterms:type <http://purl.org/dc/dcmitype/Service> ;
+  dcterms:title "Byron Mobile DGGS Visualisation Client"@en ;
+  dcterms:description "An mobile application to view DGGS data (INCOMPLETE - NOT YET AVAILABLE)." ;
+  dcterms:creator <https://orcid.org/0000-0001-6388-5481> , <mailto:adrian@openwork.nz> ;
+  dcterms:created "2020-06-07"^^xsd:date ;
+  dcterms:modified "2020-06-16"^^xsd:date ;
+  dcterms:publisher <https://www.openwork.nz> ;
+  dcat:servesDataset
+        <https://w3id.org/dggs/tb16pix> ,
+        <https://w3id.org/dggs/geofabric> ,
+        <https://w3id.org/dggs/tb16pix> ;
+.

@@ -1,0 +1,24 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<http://www.opengis.net/doc/AS/dggs/2.0>
+  a dcat:Resource ;
+  dcterms:identifier "abstractspec" ;
+  dcterms:type <http://purl.org/dc/terms/Standard> ;
+  dcterms:title "Abstract Specification Discrete Global Grid Systems - Part 1"@en ;
+  skos:altLabel "Abstract Specification Topic 21 - Discrete Global Grid Systems - Part 1 Core Reference system and Operations and Equal Area Earth Reference System" ;
+  dcterms:description "This Abstract Specification lays the foundations for Discrete Global Grid Systems (DGGS). It defines Common classes for spatio-temporal geometry, topology, and reference systems using identifiers, a DGGS Core Reference system as a reference system using zonal identifiers with structured geometry that may be spatio-temporal, a suite of DGGS Core Functions, and it specifies Equal Area Earth DGGS. The OGC DGGS Abstract Specification supports the specification of standardized DGGS infrastructures that enable the integrated analysis of very large, multi-source, multi-resolution, multi-dimensional, distributed geospatial data. Interoperability between OGC DGGS implementations is anticipated through implementation standards, and extension interface encodings of OGC Web Services."@en ;
+  dcat:keyword "ogcdoc"@en , "OGC document"@en , "Discrete Global Grid System"@en , "DGGS"@en , "Digital Earth"@en , "DGGS-core"@en , "Spatial Reference System"@en , "Global Data Structure"@en , "Geographic Information Systems"@en , "DE-9IM"@en , "standard"@en , "specification"@en ;
+  dcterms:creator <mailto:gibbr@landcareresearch.co.nz> , <mailto:mpurss@pangaeainnovations.com> ;
+  dcterms:created "2020-06-07"^^xsd:date ;
+  dcterms:modified "2020-06-16"^^xsd:date ;
+  dcterms:publisher <https://www.ogc.org> ;
+.
+
+# <http://www.opengis.net/doc/AS/dggs/2.0>

@@ -1,0 +1,43 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/catalogue/as>
+  a dcat:Resource ;
+  dcterms:identifier "as-ont" ;
+  dcterms:type <http://www.w3.org/2002/07/owl#Ontology> ;
+  dcterms:title "DGGS Abstract Specification Ontology"@en ;
+  dcterms:description "An ontology describing the parts of a Discreet Global Grid System in Semantic Web terms, derived from the OGC's DGGS Abstract Specification."@en ;
+  dcterms:creator <https://orcid.org/0000-0002-8742-7730> ;
+  dcterms:contributor <mailto:gibbr@landcareresearch.co.nz> ;
+  dcterms:created "2020-08-09"^^xsd:date ;
+  dcterms:modified "2020-08-12"^^xsd:date ;
+  dcterms:publisher <https://surroundaustralia.com> ;
+  dcat:distribution
+    <https://w3id.org/dggs/as> ,
+    <https://w3id.org/dggs/as.ttl>
+.
+
+
+<https://w3id.org/dggs/as>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/DigitalDocument> ;
+  dcterms:title "Ontology online in HTML" ;
+  dcterms:description "The ontology, in HTML format" ;
+  dcterms:format <https://w3id.org/mediatype/text/html> ;
+.
+
+
+<https://w3id.org/dggs/as.ttl>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/DigitalDocument> ;
+  dcterms:title "Ontology online in RDF" ;
+  dcterms:description "The ontology, in RDF, Turtle format" ;
+  dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+.

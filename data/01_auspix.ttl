@@ -1,0 +1,18 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/auspix>
+  a dcat:Resource ;
+  dcterms:identifier "auspix" ;
+  dcterms:type <http://www.w3.org/ns/dcat#Dataset> ;
+  dcterms:title "AusPIX"@en ;
+  dcterms:description "An Australian Government implimentation of rHealPix." ;
+  dcterms:creator <https://linked.data.gov.au/org/ga> , <https://linked.data.gov.au/org/csiro> ;
+  dcterms:created "2019-02-20"^^xsd:date ;
+  dcterms:modified "2020-06-28"^^xsd:date ;
+  dcterms:publisher <https://linked.data.gov.au/org/ga>  ;
+  sdo:codeRepository <https://github.com/GeoscienceAustralia/AusPIX_DGGS> ;
+.

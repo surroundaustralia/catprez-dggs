@@ -1,0 +1,21 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/as-terms>
+  a dcat:Resource ;
+  dcterms:identifier "as-voc" ;
+  dcterms:type <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+  dcterms:title "DGGS Abstract Specification - Terms and Definitions Vocabulary"@en ;
+  skos:altLabel "Abstract Specification Topic 21 - Discrete Global Grid Systems - Terms and Definitions Vocabulary"@en ;
+  dcterms:description "Terms defined by the Abstract Specification Topic 21 - Discrete Global Grid Systems presented as a SKOS vocabulary."@en ;
+  dcterms:creator <https://orcid.org/0000-0002-8742-7730> ;
+  dcterms:created "2020-06-07"^^xsd:date ;
+  dcterms:modified "2020-06-16"^^xsd:date ;
+  dcterms:publisher <https://www.ogc.org> ;
+.

@@ -1,0 +1,29 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/tb16pix>
+  a dcat:Resource ;
+  dcterms:identifier "tb16pix" ;
+  dcterms:type <http://www.w3.org/ns/dcat#Dataset> ;
+  dcterms:title "Testbed 16 Pix"@en ;
+  skos:altLabel "TB16Pix" ;
+  dcterms:description "An implimentation of rHealPix by the Open Geospatial Consortium's testbed 16 DGGS group." ;
+  dcterms:creator <https://orcid.org/0000-0002-8742-7730> , <mailto:gibbr@landcareresearch.co.nz> ;
+  dcterms:created "2020-06-07"^^xsd:date ;
+  dcterms:modified "2020-06-16"^^xsd:date ;
+  dcterms:publisher <https://linked.data.gov.au/org/mwlr>  ;
+  sdo:codeRepository <https://github.com/surroundaustralia/tb16pix> ;
+  dcat:distribution <https://w3id.org/dggs/tb16pix.ttl> ;
+.
+
+<https://w3id.org/dggs/tb16pix.ttl>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/DigitalDocument> ;
+  dcterms:title "Dataset in RDF" ;
+  dcterms:description "The entire TB16Pix dataset, in RDF, Turtle format" ;
+  dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+.

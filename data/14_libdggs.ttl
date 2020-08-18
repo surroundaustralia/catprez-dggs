@@ -1,0 +1,21 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/libdggs>
+  a dcat:Resource ;
+  dcterms:identifier "libdggs" ;
+  dcterms:type <http://purl.org/dc/dcmitype/Software> ;
+  dcterms:title "libdggs"@en ;
+  dcterms:description "DGGS software (NOT AVAILABLE YET)"@en ;
+  dcterms:creator <https://orcid.org/0000-0001-6388-5481> , <mailto:adrian@openwork.nz> ;
+  dcterms:created "2020-08-17"^^xsd:date ;
+  dcterms:modified "2020-08-17"^^xsd:date ;
+  dcterms:publisher <https://www.openwork.nz> ;
+.

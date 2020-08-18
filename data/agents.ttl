@@ -1,0 +1,109 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sdo: <https://schema.org/>
+
+
+<https://orcid.org/0000-0002-8742-7730>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://surroundaustralia.com> ;
+  sdo:name "Nicholas J. Car" ;
+  sdo:honorificPrefix "Dr" ;
+  sdo:jobTitle "Data Systems Architect" ;
+  sdo:email <mailto:nicholas.car@surroundaustralia.com> ;
+.
+
+<https://surroundaustralia.com>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "SURROUND Australia Pty Ltd" ;
+  sdo:url <https://surroundaustralia.com> ;
+.
+
+<https://linked.data.gov.au/org/ga>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "Geoscience Australia" ;
+  sdo:url <https://www.ga.gov.au> ;
+.
+
+<https://linked.data.gov.au/org/csiro>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "CSIRO" ;
+  sdo:url <https://www.csiro.au> ;
+.
+
+<mailto:gibbr@landcareresearch.co.nz>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://linked.data.gov.au/org/mwlr> ;
+  sdo:name "Robert Gibb" ;
+  sdo:jobTitle "Informatics Research Associate" ;
+  sdo:email <mailto:gibbr@landcareresearch.co.nz> ;
+.
+
+<https://linked.data.gov.au/org/mwlr>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "Manaaki Whenua – Landcare Research" ;
+  sdo:url <https://www.landcareresearch.co.nz> ;
+.
+
+<mailto:david.hapgood@surroundaustralia.com>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://surroundaustralia.com> ;
+  sdo:name "David Habgood" ;
+  sdo:jobTitle "Analyst Programmer" ;
+  sdo:email <mailto:david.hapgood@surroundaustralia.com> ;
+.
+
+<https://orcid.org/0000-0001-6388-5481>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://www.openwork.nz> ;
+  sdo:name "Byron Cochrane" ;
+  sdo:jobTitle "Founder & Principal" ;
+  sdo:email <mailto:byron@openwork.nz> ;
+.
+
+<mailto:adrian@openwork.nz>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://www.openwork.nz> ;
+  sdo:name "Adrian Cochrane" ;
+  sdo:jobTitle "Founder & Lead Developer" ;
+  sdo:email <mailto:adrian@openwork.nz> ;
+.
+
+<https://www.openwork.nz>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "OpenWork Ltd" ;
+  sdo:url <https://www.openwork.nz> ;
+.
+
+<mailto:mpurss@pangaeainnovations.com>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:affiliation <https://pangaeainnovations.com> ;
+  sdo:name "Matthew B.J. Purss" ;
+  sdo:honorificPrefix "Dr" ;
+  sdo:jobTitle "Co-founder and Chief Executive Officer" ;
+  sdo:email <mailto:mpurss@pangaeainnovations.com> ;
+.
+
+<https://pangaeainnovations.com>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "Pangaea Innovations Pty Ltd" ;
+  sdo:description "A scientific research and data analytics company."@en ;
+  sdo:url <https://pangaeainnovations.com/> ;
+.
+
+<https://www.ogc.org>
+  a owl:NamedIndividual ;
+  a sdo:Organization ;
+  sdo:name "Open Geospatial Consortium" ;
+  sdo:url <https://www.ogc.org> ;
+.
