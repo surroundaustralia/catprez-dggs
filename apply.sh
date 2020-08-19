@@ -2,7 +2,7 @@
 # replace the $CP_THEME_HOME in config_additions.py with the real value
 echo "pointing data dir to $CP_THEME_HOME/data"
 echo "adding config to content to $CP_HOME/catprez/config.py"
-sed -e "s#\${CP_THEME_HOME}#$CP_THEME_HOME/data#" -e "s#http://example.com/cat#https://w3id.org/dggs/cat#" config_additions.py >> $CP_HOME/catprez/config.py
+sed -e "s#\${CP_THEME_HOME}#$CP_THEME_HOME/data#" -e "s#http://example.com/cat#https://w3id.org/dggs/cat#" $CP_THEME_HOME/config_additions.py >> $CP_HOME/catprez/config.py
 
 # copy all style content to CP
 echo "copying $CP_THEME_HOME/style content to $CP_HOME/catprez/view/style"
