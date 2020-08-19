@@ -47,7 +47,7 @@ DATA_SOURCES = [
     {
         "name": "Local Files",
         "source": DataSourceTypes.FILE,
-        "data_folder": "${CP_THEME_HOME}",
+        "data_folder": "CP_DATA_DIR",
         "cache_age": CACHE_HOURS * 3600
     }
 ]
