@@ -11,11 +11,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   a dcat:Resource ;
   dcterms:identifier "as-voc" ;
   dcterms:type <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-  dcterms:title "DGGS Abstract Specification - Terms and Definitions Vocabulary"@en ;
+  dcterms:title "DGGS Abstract Specification 2.0 Terms and definitions vocabulary"@en ;
   skos:altLabel "Abstract Specification Topic 21 - Discrete Global Grid Systems - Terms and Definitions Vocabulary"@en ;
-  dcterms:description "Terms defined by the Abstract Specification Topic 21 - Discrete Global Grid Systems presented as a SKOS vocabulary."@en ;
-  dcterms:creator <https://orcid.org/0000-0002-8742-7730> ;
-  dcterms:created "2020-06-07"^^xsd:date ;
-  dcterms:modified "2020-06-16"^^xsd:date ;
+  dcterms:description "Terms, represented as SKOS Concepts, from Section 4 of the Discrete Global Grid Abstract Specification, version 2.0."@en ;
+  dcterms:creator <https://www.ogc.org> ;
+  dcterms:created "2020-08-21"^^xsd:date ;
+  dcterms:modified "2020-08-21"^^xsd:date ;
   dcterms:publisher <https://www.ogc.org> ;
 .

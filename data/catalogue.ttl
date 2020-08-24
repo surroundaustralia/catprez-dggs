@@ -18,6 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
       <https://w3id.org/dggs/asgs-api> ,
       <https://w3id.org/dggs/byron-client> ,
       <http://www.opengis.net/doc/AS/dggs/2.0> ,
+      <https://w3id.org/dggs/as-terms> ,
       <https://w3id.org/dggs/as> ,
       <https://w3id.org/dggs/rhealpix> ,
       <https://w3id.org/dggs/rhealpix-geometry-conversion> ,
