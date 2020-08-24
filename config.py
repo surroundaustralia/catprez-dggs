@@ -19,6 +19,8 @@ CLASS_RENDERERING_PREFERENCE_ORDER = [
     "http://www.w3.org/ns/dcat#Resource",
     "http://www.w3.org/2002/07/owl#Ontology",
     "http://purl.org/dc/dcmitype/Software",
+    "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "http://purl.org/dc/terms/Standard",
     "http://www.w3.org/ns/dcat#Distribution",
     "https://schema.org/Person",
     "https://schema.org/Organization",
@@ -35,6 +37,8 @@ CLASS_RENDERER = {
     "https://schema.org/Organization": AgentRenderer,
     "http://www.w3.org/2002/07/owl#Ontology": ResourceRenderer,
     "http://purl.org/dc/dcmitype/Software": ResourceRenderer,
+    "http://www.w3.org/2004/02/skos/core#ConceptScheme": ResourceRenderer,
+    "http://purl.org/dc/terms/Standard": ResourceRenderer,
 }
 
 
