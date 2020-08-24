@@ -19,3 +19,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:modified "2020-08-21"^^xsd:date ;
   dcterms:publisher <https://www.ogc.org> ;
 .
+
+<https://w3id.org/dggs/as-terms.ttl>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/DigitalDocument> ;
+  dcterms:title "Vocab in RDF" ;
+  dcterms:description "DGGS Abstract Specification 2.0 Terms and definitions vocabulary, in RDF, Turtle format" ;
+  dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+.
+
+<https://w3id.org/dggs/as-terms.html>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/DigitalDocument> ;
+  dcterms:title "Vocab in HTML" ;
+  dcterms:description "DGGS Abstract Specification 2.0 Terms and definitions vocabulary, for human reading, on the web, as an HTML document" ;
+  dcterms:format <https://w3id.org/mediatype/text/html> ;
+.
