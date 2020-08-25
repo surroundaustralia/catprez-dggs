@@ -14,7 +14,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:created "2020-08-16"^^xsd:date ;
     dcterms:modified "2020-08-16"^^xsd:date ;
     dcterms:publisher <https://surroundaustralia.com>  ;
-    dcterms:description "A DCAT2-compatable Dataset containing a catalogue of things, such as services, dataset, models, vocabularies, relating to Discrete Golbal Grid systems."@en ;
+    dcterms:description "A DCAT2-compatable Dataset containing a catalogue of things, such as services, dataset, models, vocabularies, relating to Discrete Global Grid systems."@en ;
     dcat:distribution <https://w3id.org/dggs/cat.ttl>
 .
 
