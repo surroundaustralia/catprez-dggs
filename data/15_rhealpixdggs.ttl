@@ -19,6 +19,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:modified "2016"^^xsd:gYear ;
   dcterms:publisher <https://linked.data.gov.au/org/mwlr> ;
   rdfs:seeAlso <https://doi.org/10.7931/J2D21VHM> ;
+  dcat:distribution 
+    <https://pypi.org/project/rHEALPixDGGS/> ,
+    <https://github.com/manaakiwhenua/rhealpixdggs-py> ;
 .
 
 <https://pypi.org/project/rHEALPixDGGS/>
