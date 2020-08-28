@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:identifier "geofabric-api" ;
   dcterms:type <http://www.w3.org/ns/dcat#DataService> ;
   dcterms:title "Geofabric DGGS as OGC API"@en ;
-  dcterms:description "An OGC API instance delivering the Geofabric Dataset (INCOMPLETE - NOT YET AVAILABLE)." ;
+  dcterms:description "An OGC API instance delivering part of the Geofabric Dataset (INCOMPLETE - NOT YET AVAILABLE)." ;
   dcterms:creator <https://orcid.org/0000-0002-8742-7730> , <mailto://david.hapgood@surroundaustralia.com> ;
   dcterms:created "2020-06-07"^^xsd:date ;
   dcterms:modified "2020-06-16"^^xsd:date ;

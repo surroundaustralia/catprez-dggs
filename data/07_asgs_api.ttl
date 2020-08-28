@@ -11,8 +11,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   a dcat:Resource ;
   dcterms:identifier "asgs-api" ;
   dcterms:type <http://www.w3.org/ns/dcat#DataService> ;
-  dcterms:title "TB16Pix as OGC API"@en ;
-  dcterms:description "An OGC API instance delivering the TB16Pix Dataset (INCOMPLETE - NOT YET AVAILABLE)." ;
+  dcterms:title "ASGS as OGC API"@en ;
+  dcterms:description "An OGC API instance delivering part of the ASGS Dataset (INCOMPLETE - NOT YET AVAILABLE)." ;
   dcterms:creator <https://orcid.org/0000-0002-8742-7730> , <mailto://david.hapgood@surroundaustralia.com> ;
   dcterms:created "2020-06-07"^^xsd:date ;
   dcterms:modified "2020-06-16"^^xsd:date ;

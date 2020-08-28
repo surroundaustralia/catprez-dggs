@@ -18,5 +18,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:modified "2020-06-16"^^xsd:date ;
   dcterms:publisher <https://surroundaustralia.com>  ;
   sdo:codeRepository <https://github.com/surroundaustralia/tb16pix> ;
-  dcat:servesDataset <<https://w3id.org/dggs/tb16pix> ;
+  dcat:servesDataset <https://w3id.org/dggs/tb16pix> ;
 .
