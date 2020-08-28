@@ -1,0 +1,39 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/dggs/rhealpixdggs>
+  a dcat:Resource ;
+  dcterms:identifier "rhealpix" ;
+  dcterms:type <http://purl.org/dc/dcmitype/Software> ;
+  dcterms:title "rHEALPix Discrete Global Grid System software"@en ;
+  dcterms:description "Reverse HEALPix DGGS - the rHEALPix map projection software"@en ;
+  dcterms:creator <mailto:gibbr@landcareresearch.co.nz> ;
+  dcterms:created "2015"^^xsd:gYear ;
+  dcterms:modified "2016"^^xsd:gYear ;
+  dcterms:publisher <https://linked.data.gov.au/org/mwlr> ;
+  rdfs:seeAlso <https://doi.org/10.7931/J2D21VHM> ;
+.
+
+<https://pypi.org/project/rHEALPixDGGS/>
+  a dcat:Distribution ;
+  dcterms:type <https://schema.org/Software> ;
+  dcterms:title "rHealPix PyPI package" ;
+  dcterms:description "rHealPix DGGS sofatware distributed as a Python package on PyPI, the Python Package Index" ;
+  dcat:landingPage <https://pypi.org/project/rHEALPixDGGS/> ;
+.
+
+<https://github.com/manaakiwhenua/rhealpixdggs-py>
+  a dcat:Distribution ;
+  dcterms:type <https://w3id.org/profile/catprez/OnlineVCSRepo> ;
+  dcterms:title "rHealPix VCS" ;
+  dcterms:description "rHealPix in a version control repository (GitHub)" ;
+  dcterms:format <https://w3id.org/mediatype/application/x-git> ;
+  dcat:landingPage <https://github.com/manaakiwhenua/rhealpixdggs-py>
+.

@@ -22,5 +22,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
       <https://w3id.org/dggs/as> ,
       <https://w3id.org/dggs/rhealpix> ,
       <https://w3id.org/dggs/rhealpix-geometry-conversion> ,
-      <https://w3id.org/dggs/libdggs> ;
+      <https://w3id.org/dggs/libdggs> ,
+      <https://w3id.org/dggs/rhealpixdggs> ;
 .

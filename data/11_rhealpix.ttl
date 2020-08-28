@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:identifier "rhealpix" ;
   dcterms:type <http://purl.org/dc/dcmitype/Software> ;
   dcterms:title "rHEALPix Discrete Global Grid System"@en ;
-  dcterms:description "Reverse HEALPix DGGS - the rHEALPix map projection."@en ;
+  dcterms:description "Reverse HEALPix DGGS - the rHEALPix map projection conceptual dataset"@en ;
   dcterms:creator <mailto:gibbr@landcareresearch.co.nz> ;
   dcterms:created "2015"^^xsd:gYear ;
   dcterms:modified "2016"^^xsd:gYear ;

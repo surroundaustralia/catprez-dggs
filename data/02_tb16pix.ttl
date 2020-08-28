@@ -1,5 +1,6 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX sdo: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -18,12 +19,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:publisher <https://linked.data.gov.au/org/mwlr>  ;
   sdo:codeRepository <https://github.com/surroundaustralia/tb16pix> ;
   dcat:distribution <https://w3id.org/dggs/tb16pix.ttl> ;
+  prov:wasDerivedFrom <https://w3id.org/dggs/rhealpix>
 .
 
 <https://w3id.org/dggs/tb16pix.ttl>
   a dcat:Distribution ;
   dcterms:type <https://schema.org/DigitalDocument> ;
   dcterms:title "Dataset in RDF" ;
-  dcterms:description "The entire TB16Pix dataset, in RDF, Turtle format" ;
+  dcterms:description "The entire TB16Pix dataset, in RDF, Turtle format (indivative distribution only: not available yet)" ;
   dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+.
+
+<https://tb16pix.dggs.org>
+  a dcat:Distribution ;
+  dcterms:type <http://www.w3.org/ns/dcat#DataService> ;
+  dcterms:title "Dataset via an API" ;
+  dcterms:description "The TB16Pix dataset, delivered via an OGC API-complainet Linked Data API (prototype, not yet fully OGC API-compliant)" ;
+  dcterms:format <https://w3id.org/mediatype/text/html> , <https://w3id.org/mediatype/text/turtle> ;
 .
