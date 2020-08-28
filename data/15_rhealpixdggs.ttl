@@ -26,7 +26,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pypi.org/project/rHEALPixDGGS/>
   a dcat:Distribution ;
-  dcterms:type <https://schema.org/Software> ;
+  dcterms:type <http://purl.org/dc/dcmitype/Software> ;
   dcterms:title "rHealPix PyPI package" ;
   dcterms:description "rHealPix DGGS sofatware distributed as a Python package on PyPI, the Python Package Index" ;
   dcat:landingPage <https://pypi.org/project/rHEALPixDGGS/> ;
