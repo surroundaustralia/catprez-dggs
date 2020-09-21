@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
       <https://w3id.org/dggs/tb16pix-api> ,
       <https://w3id.org/dggs/geofabric-api> ,
       <https://w3id.org/dggs/asgs-api> ,
-      <https://w3id.org/dggs/byron-client> ,
+      <https://w3id.org/dggs/pydggin> ,
       <http://www.opengis.net/doc/AS/dggs/2.0> ,
       <https://w3id.org/dggs/as-terms> ,
       <https://w3id.org/dggs/as> ,
