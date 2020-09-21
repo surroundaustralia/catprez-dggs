@@ -10,9 +10,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://w3id.org/dggs/pydggin>
   a dcat:Resource ;
   dcterms:identifier "pydggin" ;
-  dcterms:type <http://purl.org/dc/dcmitype/Service> ;
+  dcterms:type <http://purl.org/dc/dcmitype/Software> ;
   dcterms:title "PyDGGIN"@en ;
-  dcterms:description "An mobile application to view DGGS data (INCOMPLETE - NOT YET AVAILABLE)." ;
+  dcterms:description "An desktop application to view DGGS data (INCOMPLETE - NOT YET AVAILABLE)." ;
   dcterms:creator <https://orcid.org/0000-0001-6388-5481> , <mailto:adrian@openwork.nz> ;
   dcterms:created "2020-06-07"^^xsd:date ;
   dcterms:modified "2020-06-16"^^xsd:date ;
