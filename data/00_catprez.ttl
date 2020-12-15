@@ -1,0 +1,18 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sdo: <https://schema.org/>
+
+
+<https://w3id.org/dggs>
+    a catprez:CatPrez ;
+    dcat:servedBy <http://localhost:5000> ;
+    dcterms:title "W3ID Profiles Catalogue"@en ;
+    dcterms:description """A catalogue of Discrete Global Grid System (DGGS) resources.
+
+This is a general-purpose domain catalogue for DGGS that was established within the OGC's Testbed 16's DGGS work package.
+
+It intends to provide a listing of a whole range of DGGS-related resources, such as a standards, data models, APIs, vocabularies & datasets. """@en ;
+    sdo:codeRepository <https://github.com/surroundaustralia/catprez-dggs> ;
+    dcterms:publisher <https://surroundaustralia.com>  ;
+.

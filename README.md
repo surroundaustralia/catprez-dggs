@@ -1,4 +1,4 @@
-# DGGS Catalogue Overlay
+# DGGS Catalogue
 This repository contains [DCAT2](https://www.w3.org/TR/vocab-dcat/) -compatible catalogue data and some styling overlays to be added to a *CatPrez* instance for online delivery. CatPrez is a Linked Data cataloguing application. 
 
 See [SURROUND Australia's Open Source Software page](https://surroundaustralia.com/os) for more information about the CatPrez tool.
