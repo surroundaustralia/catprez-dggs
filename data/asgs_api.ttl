@@ -20,4 +20,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   sdo:codeRepository <https://github.com/surroundaustralia/asgs-dggs-api> ;
   dcat:servesDataset <https://w3id.org/dggs/asgs> ;
   catprez:hadGenerationMethod <https://w3id.org/dggs/13> ;
+  dcat:endpointURL "https://asgs.surroundaustralia.com"^^xsd:anyURI ;
 .

@@ -19,4 +19,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:publisher <https://surroundaustralia.com>  ;
   sdo:codeRepository <https://github.com/surroundaustralia/tb16pix> ;
   dcat:servesDataset <https://w3id.org/dggs/tb16pix> ;
+  dcat:endpointURL "https://tb16pix.surroundaustralia.com"^^xsd:anyURI ;
 .
