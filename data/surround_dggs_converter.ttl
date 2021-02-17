@@ -24,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://dggs.surroundaustralia.com>
   a dcat:Distribution ;
   dcterms:type <http://purl.org/dc/dcmitype/Service> ;
-  dcterms:title "The service, online" ;
+  dcterms:title "The location online of the service" ;
   dcterms:description "The location online of the service" ;
   dcat:accessURL "https://dggs.surroundaustralia.com"^^xsd:anyURI ;
 .
