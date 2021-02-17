@@ -21,9 +21,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:publisher <https://surroundaustralia.com> ;
   dcat:distribution
     <https://w3id.org/dggs/as> ,
-    <https://w3id.org/dggs/as.ttl>
+    <https://w3id.org/dggs/as.ttl> ,
+    <https://github.com/surroundaustralia/dggs-as-ont> ;
 .
-
 
 <https://w3id.org/dggs/as.html>
   a dcat:Distribution ;
@@ -33,11 +33,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:format <https://w3id.org/mediatype/text/html> ;
 .
 
-
 <https://w3id.org/dggs/as.ttl>
   a dcat:Distribution ;
   dcterms:type <https://schema.org/DigitalDocument> ;
   dcterms:title "Ontology online in RDF" ;
   dcterms:description "The ontology, in RDF, Turtle format" ;
   dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+.
+
+<https://github.com/surroundaustralia/dggs-as-ont>
+  a dcat:Distribution ;
+  dcterms:type <https://w3id.org/profile/catprez/OnlineVCSRepo> ;
+  dcterms:title "Online Version Control Repository'" ;
+  dcterms:description "All of the Resource's files in a managed Version Control Repository" ;
 .

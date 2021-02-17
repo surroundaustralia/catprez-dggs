@@ -6,8 +6,8 @@ PREFIX sdo: <https://schema.org/>
 
 <https://w3id.org/dggs>
     a catprez:CatPrez ;
-    dcat:servedBy <http://localhost:5000> ;
-    dcterms:title "W3ID Profiles Catalogue"@en ;
+    catprez:servedBy <http://localhost:5000> ;
+    dcterms:title "Discrete Global Grid System (DGGS) Catalogue"@en ;
     dcterms:description """A catalogue of Discrete Global Grid System (DGGS) resources.
 
 This is a general-purpose domain catalogue for DGGS that was established within the OGC's Testbed 16's DGGS work package.
