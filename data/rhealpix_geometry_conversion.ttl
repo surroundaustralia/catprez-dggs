@@ -18,5 +18,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:created "2020-08-09"^^xsd:date ;
   dcterms:modified "2021-02-12"^^xsd:date ;
   dcterms:publisher <https://surroundaustralia.com> ;
-  dcat:accessURL <https://dggs.surroundaustralia.com>
+  dcat:accessURL "https://dggs.surroundaustralia.com"^^xsd:anyURI ;
 .
